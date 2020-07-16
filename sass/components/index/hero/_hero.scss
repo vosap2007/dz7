@@ -1,0 +1,48 @@
+/* hero */
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../img/Header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 94px;
+  background-color: slategrey;
+  padding-top: 200px;
+
+  &-title {
+    color: var(--button-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+
+  &-button {
+    color: var(--button-color);
+    background-color: var(--link-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    text-decoration: none;
+
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    text-align: center;
+  }
+}
